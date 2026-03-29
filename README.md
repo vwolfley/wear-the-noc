@@ -1,73 +1,87 @@
-# React + TypeScript + Vite
+# Wear-the-No.C
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Wear The No.C is a website selling custom merchandise. The website features a clean and modern design, with a focus on showcasing the products and providing an easy shopping experience for customers.
 
-Currently, two official plugins are available:
+[![Website](https://img.shields.io/website-up-down-green-red/http/shields.io.svg?label=website)](https://moronispromise.gyazs.org/)
+[![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/vwolfley/moronis-promise-gyazstake?&logo=github&style=flat-square)](https://github.com/vwolfley/moronis-promise-gyazstake/releases)
+![GitHub Release Date](https://img.shields.io/github/release-date/vwolfley/moronis-promise-gyazstake?&logo=github&style=flat-square)
+![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/vwolfley/moronis-promise-gyazstake?style=flat-square)
+![semver](https://img.shields.io/badge/semver-2.0.0-blue?style=flat-square)
+[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Development Instructions
 
-## React Compiler
+1. [Clone this repo](https://github.com/vwolfley/young-mens-ap-camp) - `https://github.com/vwolfley/young-mens-ap-camp`
+2. `cd` into the `young-mens-ap-camp` folder.
+3. Install the dependencies with `npm install`.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Available Scripts
 
-## Expanding the ESLint configuration
+In the project directory, you can run:
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+#### `npm run dev`
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- Compiles raw source code into both "debug" and "production" versions.
+- Runs the app in the development mode.
+- Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- The page will reload if you make edits.
+- You will also see any lint errors in the console.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+#### `npm run build`
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- Builds the app for production to the `dist` folder.
+- It correctly bundles React in production mode and optimizes the build for the best performance.
+- The build is minified and the filenames include the hashes.
+- Your app is ready to be deployed!
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+#### `npm run replace`
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- Replaces the version number, copyright, and build date in the `package.json` file in the rest of the documents.
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## Version
+
+### version | 1.1.0
+
+- #### Updated | 2026-03-23
+
+- #### Created | 2026-01-20
+
+Releases will be numbered with the following format: **`<major>.<minor>.<patch>`**
+
+And constructed with the following guidelines:
+
+1. **MAJOR** version when you make incompatible API changes **bumps the major** resets minor and patch
+2. **MINOR** version when you add functionality in a backwards-compatible manner **bumps the minor** resets patch
+3. **PATCH** version when you make backwards-compatible bug fixes and misc changes **bumps only the patch**
+
+## Technologies
+
+A list of technologies used within the project:
+
+<a href="https://developers.arcgis.com/javascript/latest/" title="ArcGIS API for JavaScript"><img src="https://github.com/AZMAG/mag-vite-react-template/blob/main/icons/esri.svg" alt="JavaScript" width="31px" height="31px"></a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" title="JavaScript"><img src="https://github.com/get-icon/geticon/raw/master/icons/javascript.svg" alt="JavaScript" width="31px" height="31px"></a>
+<a href="https://tc39.es/ecma262/" title="ECMAScript 6"><img src="https://github.com/get-icon/geticon/raw/master/icons/es6.svg" alt="ECMAScript 6" width="31px" height="31px"></a>
+<a href="https://www.w3.org/TR/html5/" title="HTML5"><img src="https://github.com/get-icon/geticon/raw/master/icons/html-5.svg" alt="HTML5" width="31px" height="31px"></a>
+<a href="https://www.w3.org/TR/CSS/" title="CSS3"><img src="https://github.com/get-icon/geticon/raw/master/icons/css-3.svg" alt="CSS3" width="31px" height="31px"></a>
+<a href="https://reactjs.org/" title="React"><img src="https://github.com/get-icon/geticon/raw/master/icons/react.svg" alt="React" width="31px" height="31px"></a>
+<a href="https://tailwindcss.com/" title="Tailwind CSS"><img src="https://github.com/get-icon/geticon/raw/master/icons/tailwindcss-icon.svg" alt="Tailwind CSS" width="31px" height="31px"></a>
+<a href="https://vitejs.dev/" title="Vite"><img src="https://github.com/get-icon/geticon/raw/master/icons/vite.svg" alt="Vite" width="31px" height="31px"></a>
+<a href="https://eslint.org/" title="ESLint"><img src="https://github.com/get-icon/geticon/raw/master/icons/eslint.svg" alt="ESLint" width="31px" height="31px"></a>
+<a href="https://prettier.io/" title="Prettier"><img src="https://github.com/get-icon/geticon/raw/master/icons/prettier.svg" alt="Prettier" width="31px" height="31px"></a>
+<a href="https://www.npmjs.com/" title="npm"><img src="https://github.com/get-icon/geticon/raw/master/icons/npm.svg" alt="npm" width="31px" height="31px"></a>
+<a href="https://git-scm.com/" title="Git"><img src="https://github.com/get-icon/geticon/raw/master/icons/git-icon.svg" alt="Git" width="31px" height="31px"></a>
+<a href="https://code.visualstudio.com/" title="vscode"><img src="https://github.com/get-icon/geticon/raw/master/icons/visual-studio-code.svg" alt="vscode" width="31px" height="31px"></a>
+
+## Credits
+
+`Vern Wolfley`
+
+## Licensing
+
+Copyright 2026 Vern Wolfley
+
+This project is licensed under the MIT license.
+
+- [LICENSE](LICENSE)
+
+[(Back to top)](#Wear-the-No.C)
