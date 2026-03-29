@@ -1,10 +1,10 @@
 {
-  "name": "natalie-noc",
+  "name": "wear-the-noc",
   "version": "0.0.0",
   "date": "2026-03-28",
   "created": "2026-03-28",
   "copyright": "2026",
-  "description": "Natalies NOC is a website selling custom merchandise. The website features a clean and modern design, with a focus on showcasing the products and providing an easy shopping experience for customers.",
+  "description": "Wear The No.C is a website selling custom merchandise. The website features a clean and modern design, with a focus on showcasing the products and providing an easy shopping experience for customers.",
   "author": "Vern Wolfley",
   "private": true,
   "type": "module",
@@ -51,7 +51,8 @@
     }
   },
   "contributors": [
-    "Vern Wolfley"
+    "Vern Wolfley",
+    "Natalie Wolfley"
   ],
   "license": "MIT"
 }
