@@ -1,3 +1,9 @@
+# Include your project-specific ignores in this file
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Useful .gitignore templates: https://github.com/github/gitignore
+#
+
 # Logs
 logs
 *.log
@@ -7,10 +13,17 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
+# dependencies
+node_modules/
+jspm_packages/
+package-lock.json
+build
 dist
 dist-ssr
 *.local
+.pnp
+.pnp.js
+bower_components
 
 # Editor directories and files
 .vscode/*
@@ -22,3 +35,33 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# misc
+.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+!.env.example
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+
+
+
+
