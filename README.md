@@ -1,18 +1,18 @@
-# Wear-the-No.C
+# Wear-the-NoC
 
 Wear The No.C is a website selling custom merchandise. The website features a clean and modern design, with a focus on showcasing the products and providing an easy shopping experience for customers.
 
-[![Website](https://img.shields.io/website-up-down-green-red/http/shields.io.svg?label=website)](https://moronispromise.gyazs.org/)
-[![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/vwolfley/moronis-promise-gyazstake?&logo=github&style=flat-square)](https://github.com/vwolfley/moronis-promise-gyazstake/releases)
-![GitHub Release Date](https://img.shields.io/github/release-date/vwolfley/moronis-promise-gyazstake?&logo=github&style=flat-square)
-![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/vwolfley/moronis-promise-gyazstake?style=flat-square)
+[![Website](https://img.shields.io/website-up-down-green-red/http/shields.io.svg?label=website)](https:///)
+[![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/vwolfley/wear-the-noc?&logo=github&style=flat-square)](https://github.com/vwolfley/wear-the-noc/releases)
+![GitHub Release Date](https://img.shields.io/github/release-date/vwolfley/wear-the-noc?&logo=github&style=flat-square)
+![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/vwolfley/wear-the-noc?style=flat-square)
 ![semver](https://img.shields.io/badge/semver-2.0.0-blue?style=flat-square)
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 
 ## Development Instructions
 
-1. [Clone this repo](https://github.com/vwolfley/young-mens-ap-camp) - `https://github.com/vwolfley/young-mens-ap-camp`
-2. `cd` into the `young-mens-ap-camp` folder.
+1. [Clone this repo](https://github.com/vwolfley/wear-the-noc) - `https://github.com/vwolfley/wear-the-noc`
+2. `cd` into the `wear-the-noc` folder.
 3. Install the dependencies with `npm install`.
 
 ### Available Scripts
@@ -40,11 +40,11 @@ In the project directory, you can run:
 
 ## Version
 
-### version | 1.1.0
+### version | 0.0.0
 
-- #### Updated | 2026-03-23
+- #### Updated | 2026-03-28
 
-- #### Created | 2026-01-20
+- #### Created | 2026-03-28
 
 Releases will be numbered with the following format: **`<major>.<minor>.<patch>`**
 
@@ -74,7 +74,7 @@ A list of technologies used within the project:
 
 ## Credits
 
-`Vern Wolfley`
+`Vern Wolfley` `Natalie Wolfley`
 
 ## Licensing
 
@@ -84,4 +84,4 @@ This project is licensed under the MIT license.
 
 - [LICENSE](LICENSE)
 
-[(Back to top)](#Wear-the-No.C)
+[(Back to top)](#Wear-the-NoC)

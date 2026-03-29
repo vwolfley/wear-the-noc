@@ -8,11 +8,16 @@
   "author": "Vern Wolfley",
   "private": true,
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vwolfley/wear-the-noc"
+  },
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "npm run replace && tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "replace": "node replaceScripts"
   },
   "dependencies": {
     "@headlessui/react": "^2.2.9",
@@ -36,6 +41,7 @@
     "prettier-plugin-tailwindcss": "^0.7.2",
     "typescript": "~5.9.3",
     "typescript-eslint": "^8.57.0",
+    "replace-in-file": "^8.3.0",
     "vite": "^8.0.1"
   },
   "eslintConfig": {
