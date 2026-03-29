@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Logo from "../../assets/logos/logo-400-trans.png";
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -8,11 +9,12 @@ export default function Header() {
   };
 
   return (
-    <header className="top-0 z-10 flex h-16 w-full p-4 border-b border-black bg-white text-black">
+    <header className="top-0 z-10 flex h-18 w-full p-4 border-b border-black bg-white text-black">
       <section className="container mx-auto flex max-w-7xl flex-row items-center justify-between">
         <div className="flex flex-row justify-end space-x-4">
+          <img src={Logo} alt="The Noc Logo" className="h-18 w-auto" />
           <h1 className="self-center text-sm font-bold md:text-base">
-            The NO.C
+            The Perfect White Tee
           </h1>
         </div>
         <div className="relative flex flex-row justify-end">
