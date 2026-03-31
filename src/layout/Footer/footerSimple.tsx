@@ -1,4 +1,4 @@
-import Logo from "../../assets/logos/logo-400.png";
+
 
 export default function FooterSimple() {
   return (

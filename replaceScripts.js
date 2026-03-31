@@ -82,7 +82,7 @@ const docConfig = {
     const licenseResults = await replaceInFile(license)
     const indexResults = await replaceInFile(index)
     const docConfigResults = await replaceInFile(docConfig)
-    const results = { readmeResults, licenseResults, humansResults, indexResults, docConfigResults }
+    const results = { readmeResults, licenseResults, indexResults, docConfigResults }
     console.log("Replacement results:", results)
   } catch (error) {
     console.error("Error occurred:", error)
