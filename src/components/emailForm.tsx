@@ -53,7 +53,7 @@ export default function EmailForm() {
             type="email"
             id="email"
             placeholder="Email address"
-            className="w-full rounded-md border border-gray-300 bg-white p-3 text-gray-700 shadow-xs transition focus:border-gray-500 focus:ring-2 focus:ring-yellow-400 focus:outline-hidden"
+            className="w-full rounded-md border border-gray-300 bg-white p-3 text-gray-700 shadow-xs transition focus:border-gray-500 focus:ring-2 focus:ring-sky-400 focus:outline-hidden"
             value={formData.email}
             onChange={handleChange}
           />
@@ -61,7 +61,7 @@ export default function EmailForm() {
 
         <button
           type="submit"
-          className="group mt-4 flex w-full items-center justify-center gap-2 rounded-md bg-violet-600 px-5 py-3 text-white transition focus:ring-2 focus:ring-yellow-400 focus:outline-hidden sm:mt-0 sm:w-auto cursor-pointer"
+          className="group mt-4 flex w-full items-center justify-center gap-2 rounded-md bg-sky-300 px-5 py-3 text-black transition focus:ring-2 focus:ring-sky-400 focus:outline-hidden sm:mt-0 sm:w-auto cursor-pointer"
         >
           <span className="text-sm font-medium"> Sign Up </span>
 

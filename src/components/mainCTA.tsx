@@ -1,5 +1,6 @@
 import Logo from "../assets/logos/logo-400.png";
-import EmailForm from "./emailForm";
+// import EmailForm from "./emailForm";
+import GoogleForm from "./googleForm";
 
 export default function MainCTA() {
   return (
@@ -16,17 +17,17 @@ export default function MainCTA() {
             className="mx-auto mt-4 h-60 w-auto"
           />
 
-          <h3 className="text-lg text-gray-500">Coming Summer 2026</h3>
-          <p className="mt-4 text-gray-500">
+          <h3 className="text-xl font-bold md:text-2xl lg:text-3xl">Coming Summer 2026</h3>
+          {/* <p className="mt-4 text-black">
             Be the the first to know when we launch.
           </p>
-          <p className="text-gray-500">
+          <p className="text-black">
             Sign up for early access and exclusive updates.
-          </p>
+          </p> */}
         </div>
 
         <div className="mx-auto mt-8 max-w-xl">
-          <EmailForm />
+          <GoogleForm />
         </div>
       </div>
     </section>

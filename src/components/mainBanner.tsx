@@ -4,7 +4,7 @@ export default function MainBanner() {
       <div className="p-8">
         <div className="mx-auto max-w-lg text-center">
           <h1 className="text-5xl font-bold">The Perfect White Tee</h1>
-          <h2 className="mt-4 text-3xl leading-8 text-gray-600">
+          <h2 className="mt-4 text-3xl leading-8 text-black">
             A Functional Promise
           </h2>
         </div>
