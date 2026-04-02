@@ -1,0 +1,26 @@
+humanstxt.org/
+# The humans responsible & technology colophon
+==============================================
+
+# TEAM
+    	Name: Vern Wolfley
+    	Role: Developer
+
+# THANKS
+
+
+# TECHNOLOGY COLOPHON
+
+    Standards: JavaScript, HTML5, CSS3
+    Components: React, Vite
+
+# SITE
+
+    Site Name: wear-the-noc
+    Site URL: https://wearthenoc.com/
+    Version: 1.1.0
+	Last updated: 2026-03-23
+    Creation date: 2024-01-29
+	Language: English
+	Doctype: HTML5
+	IDE: VS Code

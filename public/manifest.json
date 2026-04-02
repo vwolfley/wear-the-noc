@@ -1,0 +1,30 @@
+{
+  "short_name": "wearthenoc",
+  "name": "wearthenoc.com",
+  "description": "Wear The No.C is a website selling custom merchandise. The website features a clean and modern design, with a focus on showcasing the products and providing an easy shopping experience for customers.",
+  "start_url": ".",
+  "lang": "en-US",
+  "dir": "auto",
+  "display": "standalone",
+  "theme_color": "#20346c",
+  "background_color": "#ffffff",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "web-app-manifest-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "web-app-manifest-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
