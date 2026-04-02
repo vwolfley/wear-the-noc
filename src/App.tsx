@@ -8,7 +8,7 @@ function App() {
   // Google Analytics
   useEffect(() => {
     if (env === "production") {
-      ReactGA.initialize(import.meta.env.VITE_GA_MEASUREMENT_ID, {
+      ReactGA.initialize("G-RRBHLDHG96", {
         gaOptions: {},
         gtagOptions: {},
         testMode: false,
