@@ -40,9 +40,9 @@ In the project directory, you can run:
 
 ## Version
 
-### version | 0.2.0
+### version | 1.1.0
 
-- #### Updated | 2026-03-29
+- #### Updated | 2026-04-01
 
 - #### Created | 2026-03-28
 

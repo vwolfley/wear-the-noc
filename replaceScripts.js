@@ -64,14 +64,14 @@ const index = {
 const reVersionConfig = new RegExp('(version: ")(v[0-9]+)(?:.([0-9]+))(?:.([0-9]+))(")')
 const newVersionConfig = 'version: "v' + pkg.version + '"'
 
-const reDateConfig = new RegExp('(date: ")([0-9]{4}-[0-9]{2}-[0-9]{2})(")')
-const newDateConfig = 'date: "' + pkg.date + '"'
+const reDateConfig = new RegExp('(releaseDate: ")([0-9]{4}-[0-9]{2}-[0-9]{2})(")')
+const newDateConfig = 'releaseDate: "' + pkg.date + '"'
 
 const reCopyrightConfig = new RegExp('(copyright: ")([0-9]{4})(")')
 const newCopyrightConfig = 'copyright: "' + pkg.copyright + '"'
 
 const docConfig = {
-  files: "./src/config/DocConfig.js",
+  files: "./src/config/DocConfig.tsx",
   from: [reVersionConfig, reDateConfig, reCopyrightConfig],
   to: [newVersionConfig, newDateConfig, newCopyrightConfig],
 }
